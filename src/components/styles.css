@@ -1,0 +1,203 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  .purple
+  {
+    background-color: #BCA1E9; 
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-btn {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    font-family: 'Bree Serif';
+    color: floralwhite;
+    font: bold;
+  }
+  .login-btn1 {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 93%;
+    font-family: 'Bree Serif';
+    color: floralwhite;
+  }
+  .modal-header {
+    background: #512da8;
+    color: floralwhite;
+  }
+
+  .modal-body {
+    background: #d1c4e9;
+  }
+  .tripineree-intro {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 100px;
+    color: white;
+}
+.loginForm
+{
+  margin: 0 auto;
+   top: 100%;
+    left: 93%; 
+    display: inline-block;
+  
+}
+
+.createTrip-container {
+  border-style: solid;
+  border-color: #C4C7D1;
+  border-width: .25px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  align-items: center;
+  text-align: center;
+}
+.createTrip-inner-container{
+  padding: 15px;
+}
+
+.capitalized-header{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: .2rem;
+  color: rgb(8, 191, 219);
+}
+
+
+.airline-input{
+  width: 45%;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+  border: 1px solid #C4C7D1;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.button{
+  border: none;
+  background-color: #7E4E60;
+  padding: .5rem 2rem;
+  color: white;
+  font-size: .8rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.center-loading{
+  margin: auto;
+}
+
+.raleway{
+  font-family: 'Raleway';
+}
+.light-blue{
+  color:#512da8;
+}
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.wel
+{
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-family: 'Bree Serif';
+}
+
+.btn-secondary
+{
+  background-color:#e68a00;
+}
+.btn-primary
+{
+  background-color: #512da8;
+}
+.homepage-footer
+{
+  background-color: #BCA1E9; 
+}
+
+.itin-event {
+  color: #3B4A4D;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  font-family: 'Bree Serif';
+}
+.pin-event {
+  background-color: rgb(212, 119, 155);
+  color: #3B4A4D;
+  margin: 5px 8px;
+  padding: 5px 10px;
+  flex: 1;
+  flex-basis: 200px;
+  box-shadow: 10px 10px #dbb8b8;
+  font-family: 'Bree Serif';
+}
+.badge {
+  background-color: #F7F8FA
+}
+.flex-row {
+  display: flex;
+}
+.itin-header {
+  display: flex;
+  justify-content: center ;
+  font-family: 'Bree Serif';
+}
+.event-scroll {
+  overflow-Y: scroll;
+  max-height: 70vh;
+  padding-bottom: 20px;
+}
+.date-box {
+  display: flex;
+  border: 1px solid #229C8F;
+  background-color: #F7F8FA;
+  border-radius: 2px;
+  margin: 5px 8px;
+  padding: 3px 8px;
+}
+.date-text {
+  font-size: 20;
+  font-weight: bold;
+}
+.login-btn1{
+  background-color:04BFAA;
+  color: white;
+
+}
+
+.pin-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hp-header {
+  z-index: 2;
+  font-size: 400%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color:white;
+  transform: translate(-50%,-50%)!important;
+  font-family: cursive;
+}

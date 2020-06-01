@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #BCA1E9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.purple
+{
+  background-color: #BCA1E9; 
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+}
+
+.login-btn {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 83%;
+  transform: translate(-50%,-50%)!important;
+  font-family: 'Bree Serif';
+
+}
+.login-btn1 {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 93%;
+  transform: translate(-50%,-50%)!important;
+  font-family: 'Bree Serif';
+
+}
+.modal-header {
+  background:#BCA1E9 ;
+  color: floralwhite;
+}
+.modal-header .close {
+  color: floralwhite;
+}
+.modal-body {
+  background: #d1c4e9;
+}
+
+
